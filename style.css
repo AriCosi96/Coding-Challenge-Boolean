@@ -1,0 +1,109 @@
+body{
+    background-image: url('background.jpg');
+    background-size: contain; 
+    background-position: center center; 
+    margin: 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.418);
+    width: 800px;
+    position: relative;
+    min-height: 600px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 200px;
+}
+
+
+
+
+
+.container {
+    width: 600px;
+    margin:auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo{
+    width: 150px;
+    padding: 10px;
+}
+
+.logo-text{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 255, 42);
+    margin-top: 25px;
+}
+
+.row-green{
+    height: 30px;
+    background-color: rgb(0, 255, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center center;
+    margin-top: 5px;
+    
+}
+
+.button-left{
+    height: 20px;
+    margin: 5px;
+    text-align: center;
+    
+    
+}
+
+.button-center{
+    margin: 5px;
+}
+
+.button-right{
+    margin: 5px;
+}
+
+
+.row{
+    text-align: left;
+    margin-top: 20px;
+}
+.row-left{
+    align-items: start;
+    
+    text-align: left;
+    color: antiquewhite;
+}
+
+.subject{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+.row-pink{
+    height: 20px;
+    background-color: rgb(250, 194, 109);
+    margin-right: 300px;
+    border-radius: 5px;
+}
+
+.row-center{
+    height: 20px;
+    background-color: chartreuse;
+    margin-right: 100px;
+    border-radius: 5px;
+}
+
+.row-brown{
+    height: 20px;
+    background-color: brown;
+    margin-right: 500px;
+    border-radius: 5px;
+}
+
